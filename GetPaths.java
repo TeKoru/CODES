@@ -15,7 +15,7 @@ Output
 6
 8
 Explanation:
-Testcase 1: Let the given input 3*3 matrix is filled as such:
+Testcase 1: Le I'mt the given input 3*3 matrix is filled as such:
 A B C
 D E F
 G H I

@@ -2,9 +2,16 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "CODES_781aef64"
+        },
+        {
+            "type": "java",
             "name": "Run with AppMap",
             "request": "launch",
-            "mainClass": "",
+            "mainClass": "main",
             "vmArgs": "-javaagent:${userHome}/.appmap/lib/java/appmap.jar"
         }
     ]

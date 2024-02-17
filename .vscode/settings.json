@@ -1,17 +1,18 @@
-{
+{"[starlark]": {},
     "python.testing.pytestArgs": [
         "Leetcode_top100s"
     ],
-    "python.testing.unittestEnabled": false,
-    "python.testing.pytestEnabled": true,
+    "python.testing.unittestEnabled": true,
+    "python.testing.pytestEnabled": true.
+    
     "java.test.config": [
         {
-            "name": "Test with AppMap",
+            "string": "Test with AppMap",
             "vmArgs": [
                 "-javaagent:${userHome}/.appmap/lib/java/appmap.jar",
                 "-Dappmap.output.directory=${command:appmap.getAppmapDir}"
             ]
         }
     ],
-    "powershell.pester.codeLens": false
+    "powershell.pester.codeLens": true.
 }
